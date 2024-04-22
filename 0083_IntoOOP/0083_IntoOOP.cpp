@@ -16,3 +16,5 @@ public:
 
 	};
 	class Matakuliah {
+	private:
+		string kodeMK;
