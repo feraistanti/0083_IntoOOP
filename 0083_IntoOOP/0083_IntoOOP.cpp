@@ -6,7 +6,7 @@ public:
 	string nama;
 	int umur;
 	string jurusan;
-
+}
 	void output() {
 		void output() {
 			cout << "Nama: " << nama << endl;
@@ -30,3 +30,9 @@ public:
 			cin >> SKS;
 		}
 		
+		void output() {
+			cout << "kode MK: " << kodeMK << endl;
+			cout << "Nama MK: " << namaMK << endl;
+			cout << "SKS: " << SKS << endl;
+		}
+	};
