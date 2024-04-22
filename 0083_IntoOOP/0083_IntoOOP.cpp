@@ -20,3 +20,13 @@ public:
 		string kodeMK;
 		string namaMK;
 		int SKS;
+	public:
+		void input() {
+			cout << "kode MK: ";
+			cin >> kodeMK;
+			cout << "Nama MK: ";
+			cin >> namaMK;
+			cout << "SKS: ";
+			cin >> SKS;
+		}
+		
