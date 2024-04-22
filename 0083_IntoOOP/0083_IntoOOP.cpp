@@ -19,3 +19,4 @@ public:
 	private:
 		string kodeMK;
 		string namaMK;
+		int SKS;
